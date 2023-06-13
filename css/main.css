@@ -90,7 +90,7 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus, a:active {
-	color: #FF0077;
+	color: #09fc31;
 	outline: 0;
 }
 
@@ -301,7 +301,7 @@ ul.disc li::before {
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #FF0077;
+	background: #09fc31;
 	position: absolute;
 	left: -17px;
 	top: 11px;
@@ -309,7 +309,7 @@ ul.disc li::before {
 }
 dt {
 	margin: 0;
-	color: #FF0077;
+	color: #09fc31;
 }
 dd {
 	margin: 0 0 0 2rem;
@@ -429,7 +429,7 @@ img.pull-left {
 	display: none;
 }
 .pace .pace-progress {
-	background: #FF0077;
+	background:  #09fc31;
 	position: fixed;
 	z-index: 900;
 	top: 0;
@@ -472,7 +472,7 @@ img.pull-left {
 	border-top: 11px solid rgba(255, 255, 255, 0.1);
 	border-right: 11px solid rgba(255, 255, 255, 0.1);
 	border-bottom: 11px solid rgba(255, 255, 255, 0.1);
-	border-left: 11px solid #FF0077;
+	border-left: 11px solid  #09fc31;
 	-webkit-animation: load 1.1s infinite linear;
 	animation: load 1.1s infinite linear;
 	display: block;
@@ -595,7 +595,7 @@ input[type="password"]:focus,
 textarea:focus,
 select:focus {
 	color: #cc005f;
-	border-bottom: 1px solid #FF0077;
+	border-bottom: 1px solid #09fc31;
 }
 label, legend {
 	font-family: "poppins-bold", sans-serif;
@@ -736,8 +736,8 @@ button.stroke.large, .button.stroke.large {
 	line-height: 5.4rem !important;
 }
 button.stroke:hover, .button.stroke:hover {
-	border: 3px solid #FF0077;
-	color: #FF0077;
+	border: 3px solid #09fc31;
+	color: #09fc31;
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
@@ -1041,7 +1041,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-	color: #FF0077;
+	color: #09fc31;
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
@@ -1095,11 +1095,11 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
+	background: #757272;
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
+	right: 90px;
 	top: 0;
 }
 header .logo {
@@ -1114,12 +1114,12 @@ header .logo a {
 	margin: 0;
 	padding: 0;
 	border: none;
-	font: 0/0 a;
-	text-shadow: none;
-	color: transparent;
-	width: 92px;
+	text-shadow: #035010;
+	color: #09fc31;
+	font-size: 24px;
+	font-weight: 300;
+	width: 100px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
 	background-size: 92px 15px;
 }
 
@@ -1138,7 +1138,7 @@ header .logo a {
 }
 .menu-toggle span {
 	display: block;
-	background-color: #FF0077;
+	background-color: #09fc31;
 	width: 24px;
 	height: 3px;
 	margin-top: -1.5px;
@@ -1196,7 +1196,7 @@ header .logo a {
 	background-color: rgba(255, 0, 119, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-	background-color: #ff0077;
+	background-color: #09fc31;
 	-moz-transition-delay: 0s, 0.2s;
 	-o-transition-delay: 0s, 0.2s;
 	-webkit-transition-delay: 0s, 0.2s;
@@ -1229,7 +1229,7 @@ header .logo a {
 
 /* dropdown nav */
 .main-navigation {
-	background: #000000;
+	background: #757272;
 	padding: 24px 30px 42px;
 	margin: 0;
 	width: 100%;
@@ -1252,12 +1252,12 @@ header .logo a {
 	border: none;
 }
 .main-navigation li a:hover {
-	color: #FF0077;
+	color:  #09fc31;
 	padding-left: 1rem;
 }
 .main-navigation li.current > a {
 	background: none;
-	color: #FF0077;
+	color: #09fc31;
 }
 
 /**
@@ -1294,7 +1294,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background:url(../images/img\ 5.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1312,14 +1312,14 @@ header .logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #111111;
-	opacity: .85;
+	background:rgba(0, 0, 0, 0.888);
+	opacity: 0.70;
 }
 
 .intro-content {
 	display: table-cell;
 	vertical-align: middle;
-	text-align: center;
+	text-align: right;
 	-webkit-transform: translateY(-2.1rem);
 	-ms-transform: translateY(-2.1rem);
 	transform: translateY(-2.1rem);
@@ -1327,28 +1327,28 @@ header .logo a {
 .intro-content h1 {
 	color: #FFFFFF;
 	font-family: "poppins-medium", sans-serif;
-	font-size: 8.4rem;
+	font-size: 6.8rem;
 	line-height: 1.071;
 	max-width: 900px;
 	margin-top: 0;
-	margin-bottom: .6rem;
+	margin-bottom: .2rem;
 	margin-left: auto;
-	margin-right: auto;
+	text-align: right;
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-.intro-content h5 {
-	color: #cc005f;
+.intro-content h2 {
+	color: #ffffff;
 	font-family: "poppins-bold", sans-serif;
-	font-size: 2.3rem;
+	font-size: 5.6rem;
 	line-height: 1.565;
 	margin-bottom: 0;
-	text-transform: uppercase;
-	letter-spacing: .3rem;
+	letter-spacing: .1rem;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position {
 	font-family: "lora-regular", serif;
-	font-size: 1.7rem;
+	font-size: 2.4rem;
+	font-weight: 400;
 	line-height: 2.4rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -1374,17 +1374,18 @@ header .logo a {
 }
 .intro-content .button {
 	color: #FFFFFF !important;
-	border-color: rgba(255, 255, 255, 0.3);
+	border-color: rgba(255, 255, 255, 0.6);
 	height: 6rem !important;
 	line-height: 5.4rem !important;
 	padding: 0 3.5rem 0 3rem !important;
 	margin-top: .6rem;
 	font-size: 1.3rem;
+	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #cc005f;
+	border-color: #05f83a;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1416,7 +1417,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #cc005f;
+	color: #05f83a;
 }
 
 /**
@@ -1629,7 +1630,7 @@ header .logo a {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: #FF0077;
+	color: #09fc31;
 }
 
 #resume .resume-timeline {
@@ -2122,7 +2123,7 @@ header .logo a {
 	color: white;
 }
 #services .section-intro h5 {
-	color: #FF0077;
+	color: #09fc31;
 }
 #services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2144,7 +2145,7 @@ header .logo a {
 }
 .services-list .icon i {
 	font-size: 5.4rem;
-	color: #FF0077;
+	color: #09fc31;
 }
 .services-list h3 {
 	color: #FFFFFF;
@@ -2258,7 +2259,7 @@ header .logo a {
 	color: white;
 }
 #contact .section-intro h5 {
-	color: #FF0077;
+	color:#09fc31;
 }
 #contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2311,7 +2312,7 @@ header .logo a {
 	padding: 0 2rem;
 	margin: 0;
 	color: #FFFFFF;
-	background: #FF0077;
+	background: #09fc31;
 }
 #contact form .form-field label::after {
 	position: absolute;
@@ -2320,7 +2321,7 @@ header .logo a {
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid #FF0077;
+	border-right: 5px solid #09fc31;
 	content: "";
 }
 #contact input[type="text"],
@@ -2342,7 +2343,7 @@ header .logo a {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-	border-color: #FF0077;
+	border-color: #09fc31;
 	color: #FFFFFF;
 }
 #contact textarea {
@@ -2350,7 +2351,7 @@ header .logo a {
 	padding: 1.8rem 2rem;
 }
 #contact textarea:focus {
-	border-color: #FF0077;
+	border-color: #09fc31;
 	color: #FFFFFF;
 }
 #contact button.submitform {
@@ -2362,11 +2363,11 @@ header .logo a {
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
-	background: #FF0077;
+	background: #09fc31;
 	color: #FFFFFF;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-	background: #cc005f;
+	background: #035010;
 }
 #message-warning, #message-success {
 	display: none;
@@ -2380,7 +2381,7 @@ header .logo a {
 	color: #fa0003;
 }
 #message-success {
-	color: #FF0077;
+	color: #09fc31;
 }
 #message-warning i, #message-success i {
 	margin-right: 10px;
@@ -2425,7 +2426,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .contact-info h5 {
-	color: #FF0077;
+	color: #09fc31;
 }
 
 /**
@@ -2499,7 +2500,7 @@ footer a, footer a:visited {
 	color: #FFFFFF;
 }
 footer a:hover, footer a:focus {
-	color: #FF0077;
+	color:#09fc31;
 }
 footer .row {
 	max-width: 900px;
@@ -2578,7 +2579,7 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #cc005f;
+	background: #09fc31;
 	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
